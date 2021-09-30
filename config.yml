@@ -17,6 +17,9 @@ groups:
   - name: it-help
     schedules:
       - PBC8G5I
+  - name: highjump-engineering-help
+    schedules:
+      - POR5IQ1
   - name: growth-engineering-help
     schedules:
       - PLK5L2Y
