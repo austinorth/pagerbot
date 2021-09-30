@@ -17,6 +17,14 @@ groups:
   - name: it-help
     schedules:
       - PBC8G5I
+  - name: growth-engineering-help
+    schedules:
+      - PLK5L2Y
+  - name: supply-chain-engineering-help
+    schedules:
+      - PIMQ3SN
+  # TODO(serhalp) Remove these two as part of cleanup step of
+  # https://www.pivotaltracker.com/story/show/178790883.
   - name: application-engineering-help
     schedules:
       - P61VATU
