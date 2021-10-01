@@ -1,5 +1,5 @@
-dist: trusty
-sudo: required
+# Necessary to work around a cert error 🤷
+dist: bionic
 
 language: bash
 
