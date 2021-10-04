@@ -1,4 +1,2 @@
-FROM bitnami/minideb:stretch
-RUN install_packages ca-certificates
-COPY dist/linux_amd64/pagerbot config.yml /
-CMD ["/pagerbot"]
+FROM goodeggs/platform-base:2.6.0
+COPY --chown=docker:docker dist/linux_amd64/pagerbot config.yml ./
