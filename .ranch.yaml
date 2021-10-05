@@ -4,6 +4,6 @@ name: pagerbot
 
 processes:
   pagerbot:
-    command: /pagerbot
+    command: ./pagerbot
     count: 1
     memory: 64
