@@ -3,3 +3,4 @@
 .git-crypt.key
 .ci-runner.env
 dist/
+config.yaml

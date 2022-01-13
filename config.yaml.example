@@ -1,0 +1,10 @@
+api_keys:
+  slack: "$SLACK_TOKEN"
+  pagerduty:
+    org: "$PAGERDUTY_ORG"
+    key: "$PAGERDUTY_KEY"
+
+groups:
+  - name: oncall
+    schedules:
+      - PCLYMC8
