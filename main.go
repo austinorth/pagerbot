@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/voxelbrain/goptions"
 	"github.com/yosmudge/pagerbot/config"
 	"github.com/yosmudge/pagerbot/updater"

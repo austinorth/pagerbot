@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/PagerDuty/go-pagerduty"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 type Schedules []Schedule
