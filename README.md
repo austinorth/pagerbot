@@ -8,7 +8,7 @@ Update your Slack user groups based on your PagerDuty Schedules.
 PagerBot is a simple program to do this. Provided with your PagerDuty
 and Slack API credentials, and some simple configuration, it will update
 the usergroups automatically, as well as posting a message to channels
-you select informing everyone who's currently on the rota.
+you select informing everyone who's currently on the rotation.
 
 # Installation
 
