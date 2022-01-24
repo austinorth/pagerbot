@@ -104,7 +104,12 @@ func (u *Updater) updateGroups() {
 
 			msgText := fmt.Sprintf(group.UpdateMessage.Message, userList)
 			for _, c := range group.UpdateMessage.Channels {
-				u.Slack.PostMessage(c, msgText)
+				err := u.Slack.PostMessage(c, msgText)
+				if err != nil {
+					lf["err"] = err
+					log.WithFields(lf).Warning("Could not post Slack message to channel")
+					continue
+				}
 			}
 		}
 	}

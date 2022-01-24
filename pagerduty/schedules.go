@@ -33,7 +33,10 @@ func (a *Api) Schedules() (Schedules, error) {
 			return schdList, err
 		}
 
-		updateScheduleListFromResponse(a, res, &schdList)
+		err = updateScheduleListFromResponse(a, res, &schdList)
+		if err != nil {
+			return schdList, err
+		}
 
 		if !res.More {
 			break
