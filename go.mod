@@ -12,7 +12,7 @@ require (
 
 require (
 	github.com/google/go-querystring v1.0.0 // indirect
-	github.com/gorilla/websocket v1.2.0 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/lusis/slack-test v0.0.0-20180109053238-3c758769bfa6 // indirect
 	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
