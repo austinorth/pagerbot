@@ -3,8 +3,8 @@ package updater
 import (
 	"sync"
 
+	"github.com/austinorth/pagerbot/config"
 	log "github.com/sirupsen/logrus"
-	"github.com/yosmudge/pagerbot/config"
 )
 
 // Updates the schedules from Pagerduty, check that all schedules listed

@@ -1,4 +1,4 @@
-module github.com/yosmudge/pagerbot
+module github.com/austinorth/pagerbot
 
 go 1.17
 
@@ -15,6 +15,6 @@ require (
 	github.com/gorilla/websocket v1.2.0 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/lusis/slack-test v0.0.0-20180109053238-3c758769bfa6 // indirect
-	golang.org/x/sys v0.0.0-20191026070338-33540a1f6037 // indirect
+	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 )

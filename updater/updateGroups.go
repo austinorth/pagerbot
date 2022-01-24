@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/austinorth/pagerbot/config"
+	"github.com/austinorth/pagerbot/pagerduty"
 	log "github.com/sirupsen/logrus"
-	"github.com/yosmudge/pagerbot/config"
-	"github.com/yosmudge/pagerbot/pagerduty"
 )
 
 // Ensure all the slack groups are up to date

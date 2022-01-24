@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yosmudge/pagerbot/config"
-	"github.com/yosmudge/pagerbot/pagerduty"
-	"github.com/yosmudge/pagerbot/slack"
+	"github.com/austinorth/pagerbot/config"
+	"github.com/austinorth/pagerbot/pagerduty"
+	"github.com/austinorth/pagerbot/slack"
 )
 
 type Updater struct {

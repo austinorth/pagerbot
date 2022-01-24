@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
+	"github.com/austinorth/pagerbot/config"
+	"github.com/austinorth/pagerbot/updater"
 	log "github.com/sirupsen/logrus"
 	"github.com/voxelbrain/goptions"
-	"github.com/yosmudge/pagerbot/config"
-	"github.com/yosmudge/pagerbot/updater"
 )
 
 type options struct {
