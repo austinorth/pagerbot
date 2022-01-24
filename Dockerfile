@@ -9,12 +9,6 @@ RUN mkdir /user && \
 # Set the working directory outside $GOPATH to enable the support for modules.
 WORKDIR /src
 
-# Warm the build cache with a non-cgo (i.e. static) standard library build
-# (a go.mod file must exist or it will not run in module-aware mode, and will
-# therefore not warm the cache)
-RUN go mod init temp 2>&1
-RUN CGO_ENABLED=0 go build -installsuffix 'static' std
-
 # Import the code from the context.
 COPY ./ ./
 
