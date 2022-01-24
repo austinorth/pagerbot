@@ -31,7 +31,7 @@ func (u *Updater) updateUsers(w *sync.WaitGroup) {
 
 	// Create a map of slack email -> user for searching
 	slackUserMap := make(map[string]*slack.User)
-	for i, _ := range slackUsers {
+	for i := range slackUsers {
 		u := slackUsers[i]
 		slackUserMap[u.Profile.Email] = &u
 	}

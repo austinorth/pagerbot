@@ -20,7 +20,7 @@ func (u *Updater) updateSchedules(w *sync.WaitGroup) {
 	}
 
 	var schds ScheduleList
-	for i, _ := range pdSchedules {
+	for i := range pdSchedules {
 		schds.schedules = append(schds.schedules, &pdSchedules[i])
 	}
 
