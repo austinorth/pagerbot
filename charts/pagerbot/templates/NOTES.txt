@@ -1,2 +1,4 @@
 Congratulations! You're now running pagerbot!
+Remember to set up the values file to mount your secret with your config.yaml
+file, otherwise pagerbot won't be able to do its job.
 (Check logs to verify everything is working correctly.)

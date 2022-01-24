@@ -16,6 +16,7 @@ fullnameOverride: ""
 
 podAnnotations: {}
 
+# Uncomment and delete the {} to specify resources
 resources: {}
   # limits:
   #   cpu: 100m
@@ -29,3 +30,18 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# Uncomment and delete the {} to enable mounting of secret volume
+volumeMounts: {}
+# - name: pagerbot-secret
+#   mountPath: "/config"
+
+# Uncomment and delete the {} to enable secret volume creation
+volumes: {}
+# - name: pagerbot-secret
+#   secret:
+#     secretName: pagerbot-secret
+#     items:
+#     - key: config.yaml
+#       path: config.yaml
+#       mode: 0777
