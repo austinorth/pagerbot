@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  pagerbot:
+  - apiVersion: v2
+    appVersion: test2
+    created: "2022-01-26T14:11:29.615703762Z"
+    description: A bot that updates Slack usergroups based on PagerDuty schedules.
+    digest: 02082ca3af3ef9122628b0bad99d0d26bdb3eb326fe1f6a9a97df8bd95aae882
+    name: pagerbot
+    type: application
+    urls:
+    - https://github.com/austinorth/pagerbot/releases/download/helm-chart-0.1.2/pagerbot-0.1.2.tgz
+    version: 0.1.2
+generated: "2022-01-26T14:11:29.615708562Z"
