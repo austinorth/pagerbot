@@ -10,6 +10,11 @@ and Slack API credentials, and some simple configuration, it will update
 the usergroups automatically, as well as posting a message to channels
 you select informing everyone who's currently on the rotation.
 
+PagerBot matches PagerDuty users to Slack users by their email
+addresses, so your users must have the same email address in Slack as in
+PagerDuty. PagerBot will log warnings for any users it finds in
+PagerDuty but not in Slack.
+
 # Installation
 
 `go build`
@@ -49,11 +54,5 @@ groups you'd like to update. `schedules` is a list of PagerDuty schedule
 IDs, `update_message` is the message you'd like to post, and the channels
 you'd like to post them in.
 
-Once done, you can run PagerBot with `./pagerbot --config /path/to/config.yml`
+Once done, you can run PagerBot with `./pagerbot --config /path/to/config.yaml`
 
-It's recommended to run PagerBot under Upstart or some other process manager.
-
-N.B. PagerBot matches PagerDuty users to Slack users by their email
-addresses, so your users must have the same email address in Slack as in
-PagerDuty. PagerBot will log warnings for any users it finds in
-PagerDuty but not in Slack.
