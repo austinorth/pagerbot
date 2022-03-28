@@ -3,4 +3,4 @@ name: pagerbot
 description: A bot that updates Slack usergroups based on PagerDuty schedules.
 type: application
 version: 0.1.1
-appVersion: "v1.0.0-beta"
+appVersion: "v1.0.0-beta2"

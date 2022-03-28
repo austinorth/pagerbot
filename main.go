@@ -18,7 +18,7 @@ type options struct {
 func main() {
 	parsedOptions := options{}
 
-	parsedOptions.Config = "./config.yaml"
+	parsedOptions.Config = "./config/config.yaml"
 
 	goptions.ParseAndFail(&parsedOptions)
 
