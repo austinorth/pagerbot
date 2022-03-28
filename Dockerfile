@@ -23,6 +23,9 @@ FROM scratch AS final
 # Import the user and group files from the first stage.
 COPY --from=builder /user/group /user/passwd /etc/
 
+# Import the certificates from first stage.
+COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
+
 # Import the compiled executable from the second stage.
 COPY --from=builder /pagerbot /pagerbot
 
