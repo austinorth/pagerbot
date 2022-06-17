@@ -1,7 +1,7 @@
 package slack
 
 import (
-	"github.com/nlopes/slack"
+	"github.com/slack-go/slack"
 )
 
 func (a *Api) Users() ([]slack.User, error) {
