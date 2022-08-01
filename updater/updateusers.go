@@ -3,8 +3,8 @@ package updater
 import (
 	"sync"
 
-	"github.com/nlopes/slack"
 	log "github.com/sirupsen/logrus"
+	"github.com/slack-go/slack"
 )
 
 // Fetch the users from Pagerduty and slack, and make sure we can match them
