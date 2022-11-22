@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/PagerDuty/go-pagerduty v1.5.1
 	github.com/sirupsen/logrus v1.9.0
-	github.com/slack-go/slack v0.11.2
+	github.com/slack-go/slack v0.11.4
 	github.com/voxelbrain/goptions v0.0.0-20180630082107-58cddc247ea2
 	gopkg.in/yaml.v2 v2.4.0
 )
