@@ -3,7 +3,7 @@ module github.com/austinorth/pagerbot
 go 1.17
 
 require (
-	github.com/PagerDuty/go-pagerduty v1.6.0
+	github.com/PagerDuty/go-pagerduty v1.7.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/slack-go/slack v0.12.1
 	github.com/voxelbrain/goptions v0.0.0-20180630082107-58cddc247ea2
